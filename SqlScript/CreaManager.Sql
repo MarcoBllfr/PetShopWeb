@@ -1,0 +1,23 @@
+INSERT INTO `db_petshop_web`.`utenti`
+(
+`nome`,
+`cognome`,
+`username`,
+`email`,
+`dataNascita`,
+`cellulare`,
+`password`,
+`ruolo`,
+`stato`,
+`login_rimanenti`)
+VALUES
+("Manager",
+"Manager",
+"Manager",
+"null",
+"1999-01-01",
+"0",
+"Manager",
+"M",
+"A",
+0);
